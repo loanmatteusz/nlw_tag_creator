@@ -4,6 +4,8 @@ disable=
       C0116, # missing-function-docstring
       W0301, # unnecessary-semicolon
       W0311, # bad-indentation
+      C0115, # missing-class-docstring
+      R0903, # too-few-public-methods
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
