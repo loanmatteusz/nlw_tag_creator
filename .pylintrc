@@ -7,6 +7,7 @@ disable=
       C0115, # missing-class-docstring
       R0903, # too-few-public-methods
       W0718, # broad-exception-caught
+      W0719, # broad-exception-raised
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
 # 3 compatible code, which means that the block might have code that exists
